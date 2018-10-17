@@ -88,6 +88,7 @@
             <a class="btn btn--blue" ng-href="#!/about">See more</a>
           </div>
         </div>
+        <br>
         <div class="bzg text-right">
           <div class="bzg_c" data-col="l10">
             <h3>Kabinet Inspirasi 2016/2017</h3>

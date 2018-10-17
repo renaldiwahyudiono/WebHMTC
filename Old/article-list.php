@@ -7,10 +7,14 @@
           <label class="form-label form-label--filter" for="articleCategory"><strong>Articles</strong></label>
           <select class="form-input form-input--category" id="articleCategory" name="articleCategory">
             <option value="">All Categories</option>
+            <option value="">Dalam Negeri</option>
+            <option value="">Hubungan Luar</option>
             <option value="">Kaderisasi dan Pemetaan</option>
-            <option value="">Media dan Informasi</option>
-            <option value="">Kegiatan</option>
-            <option value="">Sosial Masyarakat</option>
+            <option value="">Teknologi</option>
+            <option value="">Pengembangan Profesi</option>
+            <option value="">Kesejahteraan Mahasiswa</option>
+            <option value="">Media Informasi</option>
+            <option value="">Kewirausahaan</option>
           </select>
         </form>
       </div>

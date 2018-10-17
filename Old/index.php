@@ -47,10 +47,7 @@
   </div>
       
   <div ng-if="!isHome()">
-    <a class="btn btn--back">
-      <i class="fa fa-arrow-left"></i>
-    </a>
-    <a class="btn btn--back btn--home" ng-href="#!">
+    <a class="btn btn--back" ng-href="#!">
       <i class="fa fa-home"></i>
     </a>
   </div>
@@ -67,9 +64,6 @@
       <li class="sitenav-list">
           <a class="sitenav-anchor" ng-class="{'is-active': navPointer.onMedia}" ng-href="#!/media">media</a>
       </li>
-      <li class="sitenav-list">
-          <a class="sitenav-anchor" href="#!">connect</a>
-      </li>
       </ul>
     </nav>
   </header>
@@ -82,7 +76,7 @@
     <div class="container text-center">
           <h4 class="footer-title block-low">Connect with us</h4>
           <ul class=" list-nostyle list-inline block-low">
-            <li class="footer-link"><a class="footer-anchor" href="//facebook.com/HMTCFTIf" target="_blank">
+            <li class="footer-link"><a class="footer-anchor" href="//facebook.com/HMTCFTIK" target="_blank">
               <i class="fa fa-facebook"></i></a>
             </li>
             <li class="footer-link"><a class="footer-anchor" href="//instagram.com/hmtc_its" target="_blank">
@@ -94,11 +88,8 @@
             <li class="footer-link"><a class="footer-anchor" href="//line.me/ti/p/@hmtc_its" target="_blank">
               <small>LINE</small></a>
             </li>
-            <li class="footer-link"><a class="footer-anchor" href="//github.com/hmtc-its" target="_blank">
-              <i class="fa fa-github"></i></a>
-            </li>
           </ul>
-          <small>&copy; 2017 Medfo HMTC-ITS</small>
+          <small>&copy; Medfo HMTC-ITS</small>
     </div>
   </footer>
 
