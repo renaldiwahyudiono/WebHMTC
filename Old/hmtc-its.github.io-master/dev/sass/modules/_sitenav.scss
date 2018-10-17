@@ -1,0 +1,35 @@
+.site-nav {
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 10;
+	width: 100%;
+	height: $sitenav_height;
+	background: $white;
+	//border-bottom: solid 1px $black30;
+	box-shadow: 0 1px 1px $black30;
+}
+
+.site-nav-container {
+	display: flex;
+	justify-content: space-between;
+}
+
+.site-nav-list {
+	display: inline-block;
+}
+
+.site-nav-item {
+	line-height: $sitenav-height;
+	padding: 0 $space/3;
+}
+
+.site-nav-logo {
+	display: inline-block;
+	margin-bottom: 0;
+	line-height: $sitenav-height;
+}
+
+.site-nav-anchor {
+	display: inline-block;
+}
