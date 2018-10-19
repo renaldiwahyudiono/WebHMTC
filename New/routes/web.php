@@ -12,5 +12,11 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('home');
 });
+
+Route::get('/article', function () {
+    return view('article-detail');
+});
+
+// Route::get('/home', 'HomeController@getIndex');
