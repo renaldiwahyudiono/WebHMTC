@@ -19,4 +19,8 @@ Route::get('/article', function () {
     return view('article-detail');
 });
 
+Route::get('/media', function () {
+    return view('media-tiles');
+});
+
 // Route::get('/home', 'HomeController@getIndex');
